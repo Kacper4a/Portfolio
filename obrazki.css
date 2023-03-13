@@ -1,0 +1,21 @@
+body {
+    background-color: black
+}
+
+.obrazki {
+    width: 200px;
+    height: 200px;
+    background-color:white;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+    margin: 0 10px;
+  }
+  
+  .obrazki:hover {
+    transform: scale(1.1);
+  }
+  
